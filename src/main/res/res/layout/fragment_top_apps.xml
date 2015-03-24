@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.finc.frensapp.TopApps"
+    android:background="@color/background_material_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/text6S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Hi i am  up"
+                        android:padding="10dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
